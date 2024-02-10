@@ -1,2 +1,5 @@
 pytest>=7.0
-pydantic>=1.9  # For data validation and settings management
+pydantic>=1.9 
+click>=8.0
+rich>=10.0
+

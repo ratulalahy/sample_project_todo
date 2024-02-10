@@ -11,6 +11,8 @@ setup(
     install_requires=[
         "pytest>=7.0",
         "pydantic>=1.9",
+        "click>=8.0",
+        "rich>=10.0",
     ],
     entry_points={
         "console_scripts": [
@@ -20,5 +22,6 @@ setup(
     classifiers=[
         "Programming Language :: Python :: 3.11",
         "Operating System :: OS Independent",
+        "License :: Utah License Plate!",
     ],
 )

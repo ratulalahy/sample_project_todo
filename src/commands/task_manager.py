@@ -1,9 +1,17 @@
-from typing import List, Optional
+from typing import List, Optional, Dict
 from ..models.task import Task
 from datetime import datetime
 
 
 class TaskManager:
+    current_id = 0  # Class variable to keep track of the last used ID
+
+    @staticmethod
+    def generate_id():
+        """Generate a new unique ID."""
+        TaskManager.current_id += 1
+        return TaskManager.current_id
+        
     def __init__(self):
         """Initialize the TaskManager with an empty list of tasks."""
         self.tasks: List[Task] = []
