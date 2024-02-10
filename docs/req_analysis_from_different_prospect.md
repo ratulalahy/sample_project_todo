@@ -42,5 +42,3 @@ Will use github for source control and project management, ensuring that the tea
 ## Quality Assurance
 #### Testing Strategy 
 Implement a comprehensive testing strategy that includes unit testing for individual components, integration testing for system parts interaction, and user acceptance testing to validate the application against user requirements.
-#### Continuous Integration/Continuous Deployment (CI/CD) 
-Setup CI/CD pipelines to automate testing and deployment processes, ensuring that changes are reliably integrated and deployed to production environments.
